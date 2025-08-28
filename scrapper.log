@@ -5386,3 +5386,84 @@ INFO:root:log my final result []
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "POST /review HTTP/1.1" 200 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.5:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2025 20:13:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2025 20:13:07] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2025 20:13:07] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2025 20:13:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:HTTP Error 403: Forbidden
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2025 20:13:14] "POST /review HTTP/1.1" 200 -
+INFO:root:HTTP Error 403: Forbidden
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2025 20:13:22] "POST /review HTTP/1.1" 200 -
+INFO:root:HTTP Error 403: Forbidden
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2025 20:13:27] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2025 20:14:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2025 20:14:00] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2025 20:14:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:HTTP Error 403: Forbidden
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2025 20:14:05] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.5:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.5:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2025 20:20:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2025 20:20:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2025 20:20:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:HTTP Error 403: Forbidden
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2025 20:20:28] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2025 20:20:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2025 20:20:36] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2025 20:20:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:HTTP Error 403: Forbidden
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2025 20:20:40] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.5 - - [28/Aug/2025 20:24:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.5 - - [28/Aug/2025 20:24:05] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.5 - - [28/Aug/2025 20:24:05] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.5 - - [28/Aug/2025 20:24:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:HTTP Error 403: Forbidden
+INFO:werkzeug:192.168.1.5 - - [28/Aug/2025 20:24:08] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.5:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.5:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.5:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.5:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.1.5 - - [28/Aug/2025 20:34:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.5 - - [28/Aug/2025 20:34:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.5 - - [28/Aug/2025 20:34:54] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:root:HTTP Error 403: Forbidden
+INFO:werkzeug:192.168.1.5 - - [28/Aug/2025 20:34:57] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.5:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.5:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
