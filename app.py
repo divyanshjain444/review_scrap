@@ -77,7 +77,7 @@ def index():
             
             from pymongo.mongo_client import MongoClient
 
-            uri = "mongodb+srv://divyanshjain22:pwskills@cluster0.cpbfis0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+            uri = "mongodb+srv://divyanshjain22:<password>@cluster0.cpbfis0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
             # Create a new client and connect to the server
             client = MongoClient(uri)
